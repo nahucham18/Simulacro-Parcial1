@@ -1,4 +1,4 @@
-<?
+<?php
 
 include "Cliente.php";
 include "Empresa.php";

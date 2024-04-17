@@ -1,4 +1,4 @@
-<?
+<?php
 
 class Venta
 {
@@ -120,7 +120,7 @@ class Venta
         foreach ($this->getColeccionMotos() as $moto) {
             $motos .= "- " . $moto . "\n";
         }
-        $cad = "Datos de la venta\nNumero: " . $this->getNumero() . "\nFecha: " . $this->getFecha()->format('Y-m-d H:i:s') . "\nCliente: " . $cliente->getNombre() . "\nPrecio final: " . $this->getPrecioFinal();
+        $cad = "\nDatos de la venta\nNumero: " . $this->getNumero() . "\nFecha: " . $this->getFecha()->format('Y-m-d H:i:s') . "\nCliente: " . $cliente->getNombre() . "\nPrecio final: " . $this->getPrecioFinal();
 
         return $cad;
     }
