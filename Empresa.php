@@ -179,8 +179,8 @@ class Empresa
         $cad = "=============================\n       Datos empresa \n=============================\nDenominacion: " . $this->getDenominacion() .
             "\nDireccion: " . $this->getDireccion() .
             "\n\n=============================\n         Clientes \n=============================" . $coleccionCliente .
-            "\nMOTOS: " . $coleccionMotos .
-            "\nVENTAS: \n" . $coleccionVenta;
+            "\n=============================\n         MOTOS: \n=============================" . $coleccionMotos .
+            "\n=============================\n         VENTAS: \n=============================" . $coleccionVenta;
 
         return $cad;
     }
